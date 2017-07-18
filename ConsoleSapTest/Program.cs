@@ -10,7 +10,10 @@ namespace SapHelpConsole
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("helloWord");
+
             #region 整车经销商资金账户池
+
             //SapRequest request = new SapRequest();
             //request.RfcFunctionName = "ZSD_04_ZJCX";
 
@@ -28,6 +31,7 @@ namespace SapHelpConsole
 
             //var ttt3 = request.DealTableResultToModel<List<BalanceReturn>>("GT_ZSCDYE");
             //var ttt4 = request.DealTableResultToModel<List<Cashbalance>>("GT_ZSDT753");
+
             #endregion
 
 
@@ -63,7 +67,7 @@ namespace SapHelpConsole
             //        Console.WriteLine(e);
             //        throw;
             //    }
-             
+
             //}
             //// "ZSD_05_BJZJC"
             ////ZSD_04_ZJCX
